@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220" role="img" aria-label="Rainbow banner">
+  <defs>
+    <linearGradient id="rb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ea1d0f"/>
+      <stop offset="17%" stop-color="#ff6b00"/>
+      <stop offset="33%" stop-color="#ffb547"/>
+      <stop offset="50%" stop-color="#1f9e52"/>
+      <stop offset="67%" stop-color="#2a7de2"/>
+      <stop offset="83%" stop-color="#7b2cbf"/>
+      <stop offset="100%" stop-color="#c2160a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="220" rx="14" fill="url(#rb)"/>
+  <rect x="24" y="24" width="1" height="172" fill="#ffffff" opacity=".18"/>
+  <rect x="28" y="24" width="1" height="172" fill="#ffffff" opacity=".18"/>
+  <rect x="32" y="24" width="1" height="172" fill="#ffffff" opacity=".18"/>
+  <rect x="36" y="24" width="1" height="172" fill="#ffffff" opacity=".18"/>
+  <rect x="40" y="24" width="1" height="172" fill="#ffffff" opacity=".18"/>
+</svg>

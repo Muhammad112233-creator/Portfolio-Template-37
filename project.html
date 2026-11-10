@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neon Ledger — Case study · 0xMASON</title>
+<meta name="description" content="Neon Ledger case study. Multi-tenant finance dashboard by 0xMASON.">
+<meta name="theme-color" content="#f4f1ea"><link rel="canonical" href="https://example.com/project.html">
+<link rel="icon" href="assets/img/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>document.documentElement.classList.replace('no-js','js');</script>
+<script src="js/main.js" defer></script>
+</head>
+<body class="is-loading" data-page="case">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="loader" data-loader>
+  <svg class="logo-mark loader__mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+    <path class="logo-mark__left" d="M22 30 L22 68 L66 68 L66 30 Z"/>
+    <path class="logo-mark__right" d="M22 30 L46 8 L70 30 L46 52 Z"/>
+  </svg>
+  <div class="loader__count">0<span>%</span></div>
+  <div class="loader__word">booting</div>
+</div>
+<div class="page-veil"><div class="page-veil__mark">
+  <svg class="logo-mark page-veil__mark-img" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+    <path class="logo-mark__left" d="M22 30 L22 68 L66 68 L66 30 Z"/>
+    <path class="logo-mark__right" d="M22 30 L46 8 L70 30 L46 52 Z"/>
+  </svg></div></div>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a class="brand" href="index.html" aria-label="0xMASON homepage">
+      <svg class="brand__mark logo-mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+        <path class="logo-mark__left" d="M22 30 L22 68 L66 68 L66 30 Z"/>
+        <path class="logo-mark__right" d="M22 30 L46 8 L70 30 L46 52 Z"/>
+      </svg>
+      <div class="brand__word"><svg viewBox="0 0 200 40" aria-hidden="true" focusable="false"><text x="6" y="28" font-family="Archivo, sans-serif" font-weight="800" font-size="32" letter-spacing="-2" fill="currentColor">0xMASON</text></svg></div>
+    </a>
+    <nav class="site-header__nav"><ul>
+      <li><a class="nav-link" href="index.html#work">Work</a></li>
+      <li><a class="nav-link" href="index.html#studio">Studio</a></li>
+      <li><a class="nav-link" href="index.html#missions">Missions</a></li>
+      <li><a class="nav-link" href="index.html#contact">Contact</a></li>
+    </ul></nav>
+    <div class="site-header__meta"><a class="nav-link" href="mailto:hello@0xmason.example">hello@0xmason.example</a></div>
+    <button class="burger" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+</header>
+<div class="site-menu">
+  <ul class="site-menu__list">
+    <li><a href="index.html#work">Work</a></li><li><a href="index.html#studio">Studio</a></li>
+    <li><a href="index.html#missions">Missions</a></li><li><a href="index.html#contact">Contact</a></li>
+  </ul>
+  <div class="site-menu__footer"><span>hello@0xmason.example</span><span>Lahore, PK</span><span><a href="https://github.com/example" target="_blank" rel="noopener">github ↗</a></span></div>
+</header>
+<div class="scroll-progress"></div>
+<div class="cursor"><div class="cursor__dot"></div><div class="cursor__ring"></div><div class="cursor__label"></div></div>
+
+<main id="main">
+  <!-- split hero -->
+  <section class="split split--story" style="height:100svh;">
+    <div class="split__half split__half--front"><div class="split__half-inner"></div></div>
+    <div class="split__half split__half--back"><div class="split__half-inner"></div></div>
+    <div class="split__hero"><svg viewBox="0 0 600 640" preserveAspectRatio="none"><path d="M300 60 L540 300 L300 540 L60 300 Z" fill="none" stroke="#16130f" stroke-width="5"/></svg></div>
+    <div class="split__banner"><div class="split__banner-inner"><div class="split__banner-back">Case study</div><div class="split__banner-front">Neon Ledger</div></div></div>
+    <div class="split__hex">finance</div>
+    <div class="split__hint"><svg width="18" height="18"><path d="M9 2 L9 10" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M6 13 L9 16 L12 13" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></div>
+    <p class="split__name" style="position:static;translate:none;background:none;padding:0;color:var(--ink-2);font-size:var(--fs-mono);letter-spacing:.16em;text-transform:uppercase;">SaaS platform · 2026</p>
+    <div class="split__cta">
+      <a href="work.html" class="button"><svg width="16" height="16"><path d="M2 2 L14 8 L2 14 Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>All projects</a>
+    </div>
+  </section>
+
+  <!-- case lead -->
+  <section class="case-lead" data-reveal="up">
+    <div class="container">
+      <div class="case-lead__grid">
+        <div class="case-lead__text">
+          <p class="kicker"><b>01</b> Overview</p>
+          <h2 class="chapter-title">A ledger that <em>feels</em> like paper.</h2>
+          <p style="font-size:clamp(1.05rem,1.3vw,1.2rem);color:var(--ink-2);margin-top:1.2rem;line-height:1.6;max-width:38ch;">
+            Neon Ledger is a multi-tenant finance dashboard built for modern finance teams. Real-time balances, role-based access and subscription-driven feature flags — shipped as a single Symfony platform with an API-first frontend.
+          </p>
+          <div class="case-lead__action case-lead__action--pair">
+            <a href="https://github.com/example" class="button button--solid" target="_blank" rel="noopener"><svg width="16" height="16"><path d="M2 2 L14 8 L2 14 Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>Open source</a>
+            <a href="https://example.com" class="button" target="_blank" rel="noopener"><svg width="16" height="16"><path d="M4 0 L10 6 L4 12 Z" fill="currentColor"/></svg>Launch</a>
+          </div>
+        </div>
+        <div class="case-lead__side">
+          <div class="case-meta">
+            <div><dt>Client</dt><dd>Neon Ledger Inc.</dd></div>
+            <div><dt>Role</dt><dd>Full-stack &amp; motion</dd></div>
+            <div><dt>Shipped</dt><dd>May 2026</dd></div>
+            <div><dt>Stack</dt><dd>Symfony · PHP · API Platform · GSAP · SCSS</dd></div>
+          </div>
+          <figure class="case-figure case-figure--wide" style="margin-top:2rem;">
+            <img src="assets/img/project/p1.jpg" alt="Neon Ledger dashboard screenshot">
+            <figcaption>Dashboard overview ↳</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- case text -->
+  <section class="case-block" data-reveal="up">
+    <div class="container">
+      <div class="case-text">
+        <div>
+          <h3 class="case-text__title">The <em>brief</em></h3>
+          <div class="case-text__body">
+            <p>The client needed a dashboard that didn't feel like enterprise software. Clean, paper-like, fast — with motion that confirms every action without distracting from the numbers.</p>
+          </div>
+        </div>
+        <div class="browser" style="max-width:46rem;margin:0 auto;">
+          <div class="browser__bar"><i></i><i></i><i></i><div class="browser__url">neon-ledger.example/dashboard</div></div>
+          <div class="browser__view"><img src="assets/img/project/p1.jpg" alt="Dashboard"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- case quote -->
+  <section class="case-quote" data-reveal="up">
+    <p>"The motion design made the product feel alive — not just usable."</p>
+    <cite>— Product lead, Neon Ledger</cite>
+  </section>
+
+  <!-- case stats -->
+  <section class="case-world--back">
+    <div class="container">
+      <ul class="case-stats">
+        <li><b>12</b><span>modules</span></li>
+        <li><b>0.3s</b><span>first paint</span></li>
+        <li><b>99.8%</b><span>uptime</span></li>
+        <li><b>4</b><span>tenants live</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- case groups -->
+  <section class="case-block" style="padding-top:1rem;" data-reveal="up">
+    <div class="container">
+      <div class="case-groups">
+        <div class="case-group">
+          <div class="case-group__head"><div class="case-group__title">Architecture</div><b>Symfony</b></div>
+          <ul>
+            <li><span>API Platform</span><span>endpoints</span></li>
+            <li><span>Doctrine</span><span>multi-tenant</span></li>
+            <li><span>Mercure</span><span>live updates</span></li>
+          </ul>
+          <div class="case-group__bar"><i style="width:70%"></i></div>
+        </div>
+        <div class="case-group">
+          <div class="case-group__head"><div class="case-group__title">Front-end</div><b>GSAP · SCSS</b></div>
+          <ul>
+            <li><span>ScrollTrigger</span><span>reveals</span></li>
+            <li><span>Custom cursor</span><span>states</span></li>
+            <li><span>Reduced motion</span><span>respect</span></li>
+          </ul>
+          <div class="case-group__bar"><i style="width:90%"></i></div>
+        </div>
+        <div class="case-group">
+          <div class="case-group__head"><div class="case-group__title">Accessibility</div><b>WCAG AA</b></div>
+          <ul>
+            <li><span>Skip links</span><span>focus</span></li>
+            <li><span>Contrast</span><span>ratios</span></li>
+            <li><span>Reduced motion</span><span>toggle</span></li>
+          </ul>
+          <div class="case-group__bar"><i style="width:100%"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- case next -->
+  <section class="case-next">
+    <div class="container">
+      <div class="case-next__inner">
+        <div class="case-next__head">
+          <a class="case-next__back" href="work.html"><svg width=".7rem" height=".7rem" viewBox="0 0 14 14"><path d="M12 2 L2 7 L12 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>Back to all projects</a>
+          <div class="case-next__shop" style="padding-bottom:0;"></div>
+        </div>
+        <div style="grid-column:2;">
+          <h3 class="chapter-title" style="font-size:clamp(1.6rem,4vw,3rem);">Next <em>project</em></h3>
+          <p class="board__lead">Paper &amp; Plinth — an e-commerce shop built for makers.</p>
+          <a href="project.html" class="button button--solid">View case study</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__top">
+      <div class="site-footer__mark"><svg class="logo-mark" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
+        <path class="logo-mark__left" d="M22 30 L22 68 L66 68 L66 30 Z"/><path class="logo-mark__right" d="M22 30 L46 8 L70 30 L46 52 Z"/></svg></div>
+      <div><div class="site-footer__mail">hello@0xmason.example</div><div class="site-footer__socials"><a href="#">github</a><a href="#">linkedin</a><a href="#">mail</a></div></div>
+      <div class="site-footer__door"><a class="back-to-top" href="#top"><svg width="12" height="12"><path d="M6 0 L12 6 L6 12 Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>Back to top</a></div>
+    </div>
+    <div class="site-footer__bottom">
+      <a class="site-footer__badge" href="#"><img height="31" width="88" src="assets/img/badge/awwwards.svg" alt="Awwwards nominee" onerror="this.style.display='none'"></a>
+      <div>© 2026 0xMASON. Hand-crafted portfolio template.</div>
+    </div>
+  </div>
+</footer>
+<div class="rail"><ol>
+  <li><a href="index.html#work">Work</a></li><li><a href="index.html#studio">Studio</a></li>
+  <li><a href="index.html#missions">Missions</a></li><li><a href="index.html#contact">Contact</a></li>
+</ol></div>
+<button class="skip-story" aria-label="Skip the story"><span>Skip the story</span><svg width="14" height="14"><path d="M2 2 L12 7 L2 12 Z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></button>
+<div class="award-badge award-badge--fixed"><a href="#"><img src="assets/img/badge/awwwards.svg" alt="Awwwards nominee" width="53" onerror="this.style.display='none'"></a></div>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 31" aria-label="Awwwards nominee" role="img">
+  <rect width="88" height="31" rx="4" fill="#0f1217"/>
+  <text x="10" y="21" font-family="Archivo, sans-serif" font-weight="800" font-size="13" letter-spacing="1" fill="#f4f1ea" text-transform="uppercase">awwwards</text>
+  <text x="56" y="21" font-family="JetBrains Mono, mono" font-weight="500" font-size="10" fill="#ffb547" letter-spacing=".5">nominee</text>
+  <path d="M74 14 L82 14 L82 20 L74 20 Z" fill="#ea1d0f"/>
+</svg>
